@@ -1,0 +1,65 @@
+button.viewButton{
+
+    background-color: #333;
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 25px;
+    -webkit-text-fill-color: white;
+}
+
+div.courseList{
+
+    width: 80%;
+    margin-left: 20%;;
+}
+
+div.course{
+    border-color: black;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    width: 75%;
+    height: 30px;
+    background-color: white;
+    border-color: black;
+    flex-direction: row;
+    padding: 20px;
+
+    p {
+        position: absolute;
+        margin-top: inherit;
+        margin-bottom: 30px;
+        font-size: 25px;
+        float: left;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    a {
+        margin-top: -10px;
+        flex: 1;
+        float: right;
+
+        i{
+            font-size: 40px;
+        }
+    
+    }
+}
+
+button.coursePreview{
+
+    background-color: #333;
+    width: 80%;
+    height: 50px;
+    -webkit-text-fill-color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    
+    p{
+        margin-top: 12px;
+
+    }
+}
